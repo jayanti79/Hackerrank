@@ -1,0 +1,13 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int n =input.nextInt();
+        String result;
+        result=n%2!=0 ? "Weird" : n%2==0 && n>=2 && n<5 ? "Not Weird" : n%2==0 && n>=6 && n<=20 ? "Weird" : "Not Weird";
+        System.out.println(result);        
+    }
+}
