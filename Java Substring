@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner input =new Scanner(System.in);
+        String s=input.next();
+        
+        int start=input.nextInt();
+        int end=input.nextInt();
+        
+        
+        System.out.println(s.substring(start,end));
+            
+        
+        
+        
+    }
+}
